@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Tariq Faquih"
+  },
+  "text": {
+    "more": "The network represents the associations between the 41 lead SNPs (blue diamonds) and metabolites (orange circles). The network also includes the mapped genes to each SNP (purple squares), assigned sub-pathway from the measurement platform (yellow rounded squares), traits and diseases associated with the SNPs from DisGeNET (green octagons), and pQTL associations from Phenoscanner (pink hexagons). \nNovel and reported associations between the SNP-metabolites are represented in red- and orange-colored lines respectively.",
+    "intro": "Network of the 41 lead SNP associated with the odds of missingness of metabolites",
+    "title": "Genome-wide Association Studies of Missing Metabolite Measures: Results From Two Population-based Studies"
+  },
+  "legend": {
+    "edgeLabel": "Edges width between the SNP-metabolites reflects the -log10(pvalue) ",
+    "colorLabel": "",
+    "nodeLabel": "Nodes Repressent SNPs, Genes, Metabolites, Pathways, and diseases/phenotypes (DisGeNET). Size of the nodes is based on its number of degrees (connections)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 11,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 18
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 4,
+      "minNodeSize": 8,
+      "maxNodeSize": 12
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
